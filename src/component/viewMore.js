@@ -11,9 +11,9 @@ class ViewMore extends React.Component {
           <div className ="videoWrapper">
           <div className ="one-videoWrapper">
             <button style= {{
-             borderRadius:"8px", backgroundColor:"rgb(196, 196, 247)", margin:"1rem", padding:"4px"
+             borderRadius:"8px", backgroundColor:"rgb(92, 126, 129)", "margin-top":"1rem", padding:"4px" , color:"white"
             }}>PRODEGREE</button>
-<p style ={{fontWeight:"bold",  color:"black", fontSize:"30px"}}> 
+<p style ={{ color:"white", fontSize:"35px"}} className= "analysis"> 
   Data Analysis ProDegree Monitored By XYZ</p>
 <p>
   <button className="button-left">ENQUIRE NOW</button>
@@ -33,7 +33,7 @@ class ViewMore extends React.Component {
             <div class="grid-item">
              <label > Industry insights</label>
               <p>
-                <ul>
+                <ul className="menu" >
                   <li>Jobs in demand</li> 
                   <li>Major Clients</li>
                   <li>Huge inclination of companies towards Data science.</li>
@@ -50,7 +50,7 @@ class ViewMore extends React.Component {
             <div class="grid-item">
               <label>Alumni Speaks</label>
               <p>
-                <ul>
+                <ul className="menu" >
                <li> Meet the pioneers from the industry and their expectations.</li>
                
                <li> Industry pioneers and experts shows the increasee in demand.</li>
@@ -63,7 +63,7 @@ class ViewMore extends React.Component {
             <div class="grid-item">
              <label> Learning Path</label>
               <p>
-                <ul>
+                <ul className="menu" >
                <li> How learning is a journey from this.</li>
                <li>Learning from Industry insights to live freelancing projects</li>
                <li> Sessions with Alumnis on doubts and interview preparations.</li>
@@ -73,7 +73,7 @@ class ViewMore extends React.Component {
             </div>
             <div class="grid-item"><label>Curriculum /fee structure</label>
             <p>
-              <ul>
+              <ul className="menu" >
                 <li>whats in the course</li>
 <li>Topics to cover</li>
 <li> How many lectures on the topic</li>
